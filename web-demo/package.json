@@ -1,0 +1,28 @@
+{
+  "name": "apollo-accounts-demo-client",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@accounts/client": "0.3.0-beta.26",
+    "@accounts/client-password": "0.3.0-beta.26",
+    "@accounts/graphql-client": "0.3.0-beta.26",
+    "@accounts/rest-client": "0.3.0-beta.26",
+    "@babel/runtime": "7.0.0-beta.55",
+    "@material-ui/core": "1.2.3",
+    "apollo-accounts-password-client": "0.3.0-beta.26",
+    "apollo-boost": "0.1.10",
+    "graphql": "^0.13.2",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.11",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
