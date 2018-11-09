@@ -2,36 +2,36 @@
 # yarn lockfile v1
 
 
-"@accounts/database-manager@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.4.0-alpha.1.tgz#a403c1f88328a6deeabc408d545481d786dbaf19"
+"@accounts/database-manager@^0.3.0-beta.26":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.3.0-beta.30.tgz#303a9f90009eb86b9f96975b0631fb704171a5cb"
   dependencies:
-    "@accounts/types" "^0.4.0-alpha.1"
+    "@accounts/types" "^0.3.0-beta.30"
 
-"@accounts/graphql-api@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.4.0-alpha.1.tgz#512a84c7dddd136290d12faede8805f20ea22572"
+"@accounts/graphql-api@^0.3.0-beta.26":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.3.0-beta.30.tgz#d0208985fafa9280844fcfd37035e0f62e067e78"
   dependencies:
-    "@accounts/password" "^0.4.0-alpha.1"
-    "@accounts/server" "^0.4.0-alpha.1"
-    "@accounts/types" "^0.4.0-alpha.1"
+    "@accounts/password" "^0.3.0-beta.30"
+    "@accounts/server" "^0.3.0-beta.30"
+    "@accounts/types" "^0.3.0-beta.30"
     "@types/request-ip" "0.0.33"
     deepmerge "2.1.1"
     request-ip "2.1.1"
 
-"@accounts/mongo@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.4.0-alpha.1.tgz#6dadd58c02642a471f90484d36dac3f0c60bff9e"
+"@accounts/mongo@^0.3.0-beta.26":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.3.0-beta.30.tgz#ca5990a60992581254b6a7aad6aece5b8f5c235a"
   dependencies:
-    "@accounts/types" "^0.4.0-alpha.1"
+    "@accounts/types" "^0.3.0-beta.30"
     lodash "^4.17.11"
     mongodb "^3.1.6"
 
-"@accounts/password@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.4.0-alpha.1.tgz#5f77d3921ae7a6ceb505bba366f1bb0dd2d276c2"
+"@accounts/password@^0.3.0-beta.26", "@accounts/password@^0.3.0-beta.30":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.3.0-beta.30.tgz#3e96045954b10a668d67d14eb60c2890deae36ba"
   dependencies:
-    "@accounts/two-factor" "^0.4.0-alpha.1"
+    "@accounts/two-factor" "^0.3.0-beta.30"
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
 
@@ -44,34 +44,30 @@
     lodash "^4.17.4"
     request-ip "^2.1.1"
 
-"@accounts/server@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.4.0-alpha.1.tgz#b0bd0e052e129d6dcd0269dcbd21fa5b51c24c6b"
+"@accounts/server@^0.3.0-beta.26", "@accounts/server@^0.3.0-beta.30":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.3.0-beta.30.tgz#80f392f94d2c11c4cd91ec997231d986fa1987ac"
   dependencies:
-    "@accounts/types" "^0.4.0-alpha.1"
+    "@accounts/types" "^0.3.0-beta.30"
     "@types/jsonwebtoken" "7.2.8"
     emittery "0.4.1"
     jsonwebtoken "8.3.0"
     jwt-decode "2.2.0"
     lodash "4.17.11"
 
-"@accounts/two-factor@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.4.0-alpha.1.tgz#68522cc8f180abaebad718e6afaa1ba3e85ebddf"
+"@accounts/two-factor@^0.3.0-beta.30":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.3.0-beta.30.tgz#b96791d55b7b2d9053fc1e31cad31fee162a4be7"
   dependencies:
-    "@accounts/types" "^0.4.0-alpha.1"
+    "@accounts/types" "^0.3.0-beta.30"
     "@types/lodash" "^4.14.116"
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"
     speakeasy "^2.0.0"
 
-"@accounts/types@^0.3.0-beta.26":
+"@accounts/types@^0.3.0-beta.26", "@accounts/types@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.3.0-beta.30.tgz#622a1b19d731574d930d05d29241f31dc448fe1f"
-
-"@accounts/types@^0.4.0-alpha.1":
-  version "0.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.4.0-alpha.1.tgz#100718a6a8b527a7f5823c82bf72bfe9a2f00985"
 
 "@apollographql/apollo-upload-server@^5.0.3":
   version "5.0.3"

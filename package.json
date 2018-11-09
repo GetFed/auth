@@ -8,12 +8,12 @@
     "start-mongo": "docker-compose up -d"
   },
   "dependencies": {
-    "@accounts/database-manager": "^0.4.0-alpha.1",
-    "@accounts/graphql-api": "^0.4.0-alpha.1",
-    "@accounts/mongo": "^0.4.0-alpha.1",
-    "@accounts/password": "^0.4.0-alpha.1",
+    "@accounts/database-manager": "^0.3.0-beta.26",
+    "@accounts/graphql-api":  "^0.3.0-beta.26",
+    "@accounts/mongo": "^0.3.0-beta.26",
+    "@accounts/password": "^0.3.0-beta.26",
     "@accounts/rest-express": "0.3.0-beta.26",
-    "@accounts/server": "^0.4.0-alpha.1",
+    "@accounts/server":  "^0.3.0-beta.26",
     "apollo-server": "^2.0.5",
     "cors": "^2.8.4",
     "express": "^4.16.3",
