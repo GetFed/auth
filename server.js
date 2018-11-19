@@ -21,7 +21,7 @@ const start = async () => {
 
   const accounts = createApolloAccounts({
     db,
-    tokenSecret: process.env.TOKEN_SECRET || "ABCDEFG", // not abcd
+    tokenSecret: process.env.TOKEN_SECRET || "awesome_secret_key", // not abcd
     siteUrl:
       process.env.NODE_ENV === 'production'
         ? 'https://myapp.com'
