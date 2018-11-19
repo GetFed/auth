@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@accounts/database-manager@^0.3.0-beta.26":
+"@accounts/database-manager@0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.3.0-beta.30.tgz#303a9f90009eb86b9f96975b0631fb704171a5cb"
   dependencies:
     "@accounts/types" "^0.3.0-beta.30"
 
-"@accounts/graphql-api@^0.3.0-beta.26":
+"@accounts/graphql-api@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.3.0-beta.30.tgz#d0208985fafa9280844fcfd37035e0f62e067e78"
   dependencies:
@@ -19,7 +19,7 @@
     deepmerge "2.1.1"
     request-ip "2.1.1"
 
-"@accounts/mongo@^0.3.0-beta.26":
+"@accounts/mongo@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.3.0-beta.30.tgz#ca5990a60992581254b6a7aad6aece5b8f5c235a"
   dependencies:
@@ -27,7 +27,7 @@
     lodash "^4.17.11"
     mongodb "^3.1.6"
 
-"@accounts/password@^0.3.0-beta.26", "@accounts/password@^0.3.0-beta.30":
+"@accounts/password@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.3.0-beta.30.tgz#3e96045954b10a668d67d14eb60c2890deae36ba"
   dependencies:
@@ -35,16 +35,16 @@
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
 
-"@accounts/rest-express@0.3.0-beta.26":
-  version "0.3.0-beta.26"
-  resolved "https://registry.yarnpkg.com/@accounts/rest-express/-/rest-express-0.3.0-beta.26.tgz#02a6f9e511c60eb2141085bae7003227b2ff3afa"
+"@accounts/rest-express@0.3.0-beta.30":
+  version "0.3.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@accounts/rest-express/-/rest-express-0.3.0-beta.30.tgz#dc0a51ae3d2405ec53d7f282c3b8b62500035baa"
   dependencies:
-    "@accounts/types" "^0.3.0-beta.26"
+    "@accounts/types" "^0.3.0-beta.30"
     express "^4.16.2"
-    lodash "^4.17.4"
+    lodash "^4.17.11"
     request-ip "^2.1.1"
 
-"@accounts/server@^0.3.0-beta.26", "@accounts/server@^0.3.0-beta.30":
+"@accounts/server@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.3.0-beta.30.tgz#80f392f94d2c11c4cd91ec997231d986fa1987ac"
   dependencies:
@@ -65,7 +65,7 @@
     lodash "^4.17.11"
     speakeasy "^2.0.0"
 
-"@accounts/types@^0.3.0-beta.26", "@accounts/types@^0.3.0-beta.30":
+"@accounts/types@^0.3.0-beta.30":
   version "0.3.0-beta.30"
   resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.3.0-beta.30.tgz#622a1b19d731574d930d05d29241f31dc448fe1f"
 
